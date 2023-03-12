@@ -1,0 +1,115 @@
+.mainContainer{
+    display: grid;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: auto;
+    gap: 50px;
+    grid-template-columns: 750px 1fr;
+    
+}
+.windowdiv{
+    color: white;
+    background-color: black;
+}
+.namediv{
+    display: flex;
+    
+    
+    
+
+}
+.name{
+    border: 1px solid rgb(249, 249, 249);
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #202636;
+    color: rgb(97, 98, 100);
+    
+    
+}
+.name:hover{
+    background-color: #383E4C;
+    color: rgb(254, 254, 254);
+
+}
+.filterdiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 12px;
+    
+    
+}
+.selectdiv{
+    width: 180px;
+    height: 26px;
+    border: 1px solid #fdfdfe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202636;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+.filter{
+    border: none;
+    background-color: #202636;
+    color: white;
+}
+.chatdiv{
+    width: 100%;
+    height: 430px;
+    overflow-y: scroll;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.chatmaindiv{
+    width: 100%;
+    height: 500px;
+    background-color: #202636;
+    
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #adaaaa;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #c3bdbd;
+  }
+
+  .msgdiv {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .msgdiv input{
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #5C5E69;
+    width: 300px;
+    height: 25px;
+    border: none;
+    text-align: center;
+  }
+  .enterText:hover{
+    color: white;
+  }
+

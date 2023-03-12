@@ -1,0 +1,31 @@
+.chatcarddiv{
+    display: grid;
+    grid-template-columns: 50px  1fr;
+    grid-column-gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    
+
+
+}
+.chatcardimg img{
+    width: 45px;
+    height: 45px;
+   
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.chatcardtext{
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.chatname{
+    font-weight: 600;
+
+}
