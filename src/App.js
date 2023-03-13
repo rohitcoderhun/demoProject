@@ -99,7 +99,7 @@ function App() {
 
           </div>
           <div className='msgdiv'>
-            <input type="text" name="chat" className='enterText' placeholder='Connect your wallet to chat' onChange={handleChange} onKeyDown={handlesubmit}/>
+            <input type="text" name="chat" className='enterText' placeholder='Connect your wallet to chat' value={postMessage} onChange={handleChange} onKeyPress={handlesubmit}/>
 
           </div>
 
